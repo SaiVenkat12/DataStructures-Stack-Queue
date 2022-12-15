@@ -10,6 +10,14 @@ namespace StackandQueue
             linkedListStack.push(30);
             linkedListStack.push(56);
             linkedListStack.Display();
+
+            linkedListStack.peak();
+
+            linkedListStack.pop();
+            linkedListStack.Display();
+
+            linkedListStack.isEmpty();
+            linkedListStack.Display();
         }
     }
 }
