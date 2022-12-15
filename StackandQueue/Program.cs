@@ -11,7 +11,8 @@ namespace StackandQueue
             queue.EnQueue(70);
             queue.display();
 
-
+            queue.DeQueue();
+            queue.display();
             //LinkedListStack linkedListStack = new LinkedListStack();
             //linkedListStack.push(70);
             //linkedListStack.push(30);

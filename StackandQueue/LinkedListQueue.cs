@@ -25,10 +25,23 @@ namespace StackandQueue
                     temp = temp.next;
                 }
                 temp.next = node;
-                Console.WriteLine(node.data + " is inserted into the Queue");
+            }
+            Console.WriteLine(node.data + " is inserted into the Queue");
+        }
+        public void DeQueue()
+        {
+
+            if (this.head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            else
+            {
+                Console.WriteLine("{0} is removed from the Queue", this.head.data);
+                this.head = this.head.next;
             }
         }
-        public void display()
+            public void display()
         {
             if (head == null)
             {
